@@ -160,7 +160,7 @@ INSERT INTO admins (username, password, full_name, role, email) VALUES
 
 -- Insert sample student (password: password - CHANGE IN PRODUCTION!)
 INSERT INTO students (student_id, password, full_name, email, phone, room_number, block, room_type, course, year, department) VALUES
-('DEI-2K23-CS-042', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Rahul Kumar', 'rahul@student.dei.ac.in', '9876543210', '114', 'A', 'triple', 'B.Sc CS', 2, 'Computer Science');
+('DEI-2K23-CS-042', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'Prashant kuamr jaiswal', 'prashant@student.dei.ac.in', '9876543210', '114', 'A', 'triple', 'B.Sc CS', 2, 'Computer Science');
 
 -- Insert sample notices
 INSERT INTO notices (title, content, category, created_by) VALUES
